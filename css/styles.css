@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    background-color: #F2CEDA;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 79px;
+    height: 79px;
+}
+
+.logo__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
